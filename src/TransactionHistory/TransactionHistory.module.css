@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    background-color: royalblue;
+}
+
+.header__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+}
+
+.list__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 10px;
+
+    background-color: #ffffff;
+}
+
+.list:nth-child(2n)>.list__item {
+    background-color: rgba(0, 0, 0, 0.1);
+}
